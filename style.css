@@ -16,6 +16,19 @@
 	top: 400px;
 }
 
+.column {
+	height: 90vh;
+	width: 60px;
+	background-color: cyan;
+	position: absolute;
+
+}
+
+#p1c2 {
+	background-color: teal;
+	position: static;
+	float: right;
+}
 
 .walk-right {
 	-webkit-animation: walk .9s steps(6) infinite;
