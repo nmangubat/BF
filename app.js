@@ -1,4 +1,4 @@
-(function() {
+
 
 	var sprite = document.querySelector('#player'),
 		key = {left: false, right: false},
@@ -65,4 +65,3 @@
 	document.addEventListener('keydown', walk, false);
 	document.addEventListener('keyup', stop, false);
 
-})();
